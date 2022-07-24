@@ -1,0 +1,9 @@
+
+
+.navbar{
+    @apply flex text-blue-700 font-bold
+}
+
+.nav-item{
+   @apply font-bold text-blue-700
+}
