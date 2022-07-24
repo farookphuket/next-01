@@ -5,7 +5,13 @@ export default function Component() {
     if (session) {    
         return (      
             <>        
-                Signed in as {session.user.email} <br />        
+                <h1 className="text-4xl font-blue-500">
+                    howdy! {session.user.name}
+                </h1>
+                <p className="pt-4 mb-6 font-bold text-green-500">
+                    Signed in as {session.user.email}
+                </p>
+
                 <button 
                     className="btn border-2 border-red-600 "
                 onClick={() => signOut()}>Sign out</button>      
