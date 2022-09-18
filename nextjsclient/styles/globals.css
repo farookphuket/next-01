@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    main{
+        @apply min-h-screen  py-4 md:py-6;
+    }
+
+}
+
+@layer components{
+    .wrapper{
+        @apply bg-gray-100 ;
+    }
+.content{
+        @apply p-4 bg-white items-center ;
+    }
+    .video-container{
+        @apply w-full aspect-video;
+    }
+}
